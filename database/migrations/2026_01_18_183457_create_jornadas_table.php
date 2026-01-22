@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('nombre');
             $table->text('descripcion')->nullable();
-            $table->string('fecha_jornada');
             $table->date('fecha_inicio')->nullable();
             $table->date('fecha_fin')->nullable();
             $table->text('propuesta_generica')->nullable();
